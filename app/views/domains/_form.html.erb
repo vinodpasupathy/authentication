@@ -1,0 +1,29 @@
+<%= form_for(@domain) do |f| %>
+  <% if @domain.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@domain.errors.count, "error") %> prohibited this domain from being saved:</h2>
+
+      <ul>
+      <% @domain.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :d_name, "Domain Name" %><br>
+    <%= f.text_field :d_name, :required=>true ,class: 'form-control'%>
+  </div>
+<%unless params[:action]=="edit"%>
+    <div class="field">
+     <%= f.radio_button :role, 1,checked:true %>
+    <%= f.label :role_approve, 'Approve' %><br>
+    <%= f.radio_button :role, 0 %>  
+    <%= label :role_unapprove, 'Unapprove' %>
+  </div>
+<%end%>
+  <div class="actions">
+    <%= f.submit class: 'btn btn-default'%>
+  </div>
+<% end %>

@@ -1,0 +1,278 @@
+
+---
+users:
+  columns:
+  - id
+  - name
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - confirmation_token
+  - confirmed_at
+  - confirmation_sent_at
+  - unconfirmed_email
+  - failed_attempts
+  - unlock_token
+  - locked_at
+  - created_at
+  - updated_at
+  records: 
+  - - 21
+    - Poombavai
+    - poombavai@humail.com
+    - "$2a$10$4hc/TATJrEQyDoIpt2Z6xuDHGJu7MfCZngmdFDJ658COIDIuy95eq"
+    - 
+    - 
+    - 
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - 3aa977f9ca87d6ff76f12cc8238071528ce9252d564a8a8c3a7f845baa1c7ab9
+    - 
+    - '2016-05-12 06:19:33.801673'
+    - 
+    - 0
+    - 
+    - 
+    - '2016-05-12 06:19:33.798322'
+    - '2016-05-12 06:19:33.798322'
+  - - 23
+    - sri
+    - srivishnuit@gma2il.com
+    - "$2a$10$7rAUbXVTq8ioMPziAoEemOyBF3mMiZHmDHNUuMDU63IjPMI4cg3fS"
+    - 
+    - 
+    - 
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - d75374506daf7e32f86820417922ed51febf9d1d912e99581f629fa0d24bf498
+    - 
+    - '2016-05-12 06:31:38.632177'
+    - 
+    - 0
+    - 
+    - 
+    - '2016-05-12 06:31:38.627927'
+    - '2016-05-12 06:31:38.627927'
+  - - 24
+    - sri
+    - srivishnuit@gma2435il.com
+    - "$2a$10$pC6IZKnP.oOPftBfOiRi/uUZBkp5XYsto9qJvDgHxs7mFT9v128b6"
+    - 
+    - 
+    - 
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - 955ad4c20ac11f7bdc9b6eedb95d9d1faf096276e32790a96573ea26b98729fa
+    - 
+    - '2016-05-12 06:32:52.686963'
+    - 
+    - 0
+    - 
+    - 
+    - '2016-05-12 06:32:52.682115'
+    - '2016-05-12 06:32:52.682115'
+  - - 25
+    - sri
+    - vi@hotmail.com
+    - "$2a$10$FSIOzR9ivUNr9HTcesOiNOfMZj72PBv5AtsJSdpih9Wk0eIc6aGq."
+    - 
+    - 
+    - 
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - c540832129c4823cf3793f6a4b53c83742fa19ecbc69df58c8c44dc6c7646353
+    - 
+    - '2016-05-12 06:33:46.558471'
+    - 
+    - 0
+    - 
+    - 
+    - '2016-05-12 06:33:46.554997'
+    - '2016-05-12 06:33:46.554997'
+  - - 26
+    - sri
+    - vfgdhgfjh@hotmail.com
+    - "$2a$10$u.x7llxG.4UeLsAhKJFiP.IcTBzO4kuOaZosuSo33qdZdzWJaNuZy"
+    - 
+    - 
+    - 
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - 609c9f85ef0b4ddda64319cb0dba79d37c44010a54ce0c6aabc289d5bde865fa
+    - 
+    - '2016-05-12 06:35:02.443456'
+    - 
+    - 0
+    - 
+    - 
+    - '2016-05-12 06:35:02.440118'
+    - '2016-05-12 06:35:02.440118'
+  - - 27
+    - vinod
+    - vinodrey916vino@gmail.com
+    - "$2a$10$9R5n5VKJ.ZEPlMEKdQBEruk0Af7A0Mo.zt.YpukAe1qhAmErjRC9O"
+    - 
+    - 
+    - 
+    - 3
+    - '2016-05-12 07:43:39.745643'
+    - '2016-05-12 07:42:22.201499'
+    - 192.168.1.102
+    - 192.168.1.102
+    - 
+    - '2016-05-12 07:39:30.270994'
+    - '2016-05-12 07:37:36.407860'
+    - 
+    - 0
+    - 
+    - 
+    - '2016-05-12 07:37:36.404024'
+    - '2016-05-12 07:43:39.797599'
+  - - 28
+    - viki
+    - infovicky02@gmail.com
+    - "$2a$10$kQkwwhwVX.WMTjLPlVriV.u8lYhsyIOzT4SKHZzVCkIYN5ICHdTUO"
+    - 
+    - 
+    - 
+    - 1
+    - '2016-05-12 07:41:55.332363'
+    - '2016-05-12 07:41:55.332363'
+    - 192.168.1.102
+    - 192.168.1.102
+    - 
+    - '2016-05-12 07:40:26.593039'
+    - '2016-05-12 07:38:54.141901'
+    - 
+    - 0
+    - 
+    - 
+    - '2016-05-12 07:38:54.139508'
+    - '2016-05-12 07:42:23.328549'
+  - - 29
+    - vivi
+    - infovicky02@hotmail.com
+    - "$2a$10$vTy3He8ok9bcBJEPZY2CyOLaH7VHK2Ch2euh0uhI0bQ6ECroFr7a6"
+    - 
+    - 
+    - 
+    - 0
+    - 
+    - 
+    - 
+    - 
+    - ac1c22d518b306de71fe8d6d2f5331dc176cb08a3ee9a2a68ceb6b95d3d1acc3
+    - 
+    - '2016-05-12 07:43:47.300224'
+    - 
+    - 0
+    - 
+    - 
+    - '2016-05-12 07:43:47.298126'
+    - '2016-05-12 07:43:47.298126'
+  - - 30
+    - Poombavai
+    - poombavai1994@gmail.com
+    - "$2a$10$7oDOPXkI4CXvvwa499tzR.tehXff7.gl9LaAhG/x7oS/ngRfwf1e2"
+    - 
+    - 
+    - 
+    - 3
+    - '2016-05-12 08:05:26.614635'
+    - '2016-05-12 08:02:46.806137'
+    - 192.168.1.102
+    - 192.168.1.102
+    - 42b1b8adb636e22f29816b881213570086d4fa556aefbae2ef0e0f8f7ec28bac
+    - '2016-05-12 08:01:11.242262'
+    - '2016-05-12 08:05:52.110448'
+    - poombavai1994@uimail.com
+    - 0
+    - 
+    - 
+    - '2016-05-12 08:00:52.076882'
+    - '2016-05-12 08:05:52.107711'
+
+---
+domains:
+  columns:
+  - id
+  - d_name
+  - role
+  - created_at
+  - updated_at
+  records: 
+  - - 29
+    - gmail.com
+    - 1
+    - '2016-05-12 06:00:08.081025'
+    - '2016-05-12 06:36:55.198099'
+  - - 30
+    - hotmail.com
+    - 0
+    - '2016-05-12 06:00:47.718499'
+    - '2016-05-12 06:00:47.718499'
+  - - 35
+    - yahoo.com
+    - 0
+    - '2016-05-12 07:34:25.001146'
+    - '2016-05-12 07:45:55.842883'
+  - - 36
+    - treemail.com
+    - 1
+    - '2016-05-12 07:59:09.221976'
+    - '2016-05-12 07:59:14.530302'
+
+---
+admins:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - created_at
+  - updated_at
+  - name
+  records: 
+  - - 11
+    - admin123@gmail.com
+    - "$2a$10$IpgC//NHcsF5OkXza7rcN.J1dqELnlcBfpFCba7UK1faT4SW2u9Jq"
+    - 
+    - 
+    - 
+    - 8
+    - '2016-05-12 08:25:16.671733'
+    - '2016-05-12 07:58:49.499716'
+    - 192.168.1.102
+    - 192.168.1.102
+    - '2016-05-12 06:17:12.101836'
+    - '2016-05-12 08:25:16.674183'
+    - Admin

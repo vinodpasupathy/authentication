@@ -1,0 +1,55 @@
+
+<div class="col-sm-12">
+<div class="col-sm-10">
+<h1>Listing Domains</h1></div>
+<div class="col-sm-2">
+<%= link_to "<i class='fa fa-plus fa-lg' aria-hidden='true'><strong> New Domain</strong></i>".html_safe, new_domain_path %></div>
+<div class="row">
+        <div class="col-sm-6">
+
+<strong>Approved domains</strong>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Domain Name</th>
+      <th>Activities</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @domains.each do |domain| %>
+      <tr>
+        <td><%= domain.d_name %></td>
+        <td><%= link_to "<i class='fa fa-arrow-right fa-lg' aria-hidden='true' style='color:red'></i>".html_safe, domain ,data: {confirm: 'Unapprove this domain?'}%>&nbsp;&nbsp;&nbsp;
+        <%= link_to "<i class='fa fa-pencil-square-o fa-lg' aria-hidden='true'></i>".html_safe, edit_domain_path(domain) %>&nbsp;&nbsp;&nbsp;
+        <%= link_to "<i class='fa fa-trash-o fa-lg' aria-hidden='true'></i>".html_safe, domain, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+</div>
+<div class="col-sm-6">
+<strong>Unapproved domains</strong>
+<table class="table">
+<thead> 
+    <tr>
+      <th>Domain name</th>
+      <th>Activities</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @domain.each do |domain| %>
+      <tr>
+        <td><%= domain.d_name %></td>
+        <td><%= link_to "<i class='fa fa-arrow-left fa-lg' aria-hidden='true' style='color:green'></i>".html_safe, domain , data: {confirm: 'Approve this domain?'}%>&nbsp;&nbsp;&nbsp;
+        <%= link_to "<i class='fa fa-pencil-square-o fa-lg' aria-hidden='true'></i>".html_safe, edit_domain_path(domain) %>&nbsp;&nbsp;&nbsp;
+        <%= link_to "<i class='fa fa-trash-o fa-lg' aria-hidden='true'></i>".html_safe, domain, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+</div>
+</div>
+</div>

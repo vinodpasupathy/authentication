@@ -1,0 +1,16 @@
+<%if admin_signed_in?%>
+<%= render template: "domains/index" %>
+<%end%>
+<%unless user_signed_in? or admin_signed_in? %>
+<% content_for :top_content do %>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Welcome!</h1>
+      <p>Register to get started.</p>
+      <p>
+        <%= link_to 'User Register', new_user_registration_path, class: 'btn btn-primary btn-lg' %>
+      </p>
+    </div>
+  </div>
+<% end %>
+<%end%>
