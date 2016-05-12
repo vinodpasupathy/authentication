@@ -13,7 +13,7 @@ class RegistrationsController < Devise::RegistrationsController
           when 1             #this is for approved domains
             @user.save       #Save the user data
           when 0             #For unapproved domains
-            UserMailer.user(@domain_name).deliver	   #mail sent to the admin
+            AdminMailer.admin(@domain_name).deliver	   #mail sent to the admin
             flash[:notice] = "Your request was sent to the Admin. Please try again after some time."
         else                 #Not in the Approved/Unapproved List
             flash[:notice] = "oops! Your domain was not accepted"
