@@ -4,9 +4,9 @@ class UserMailer < ApplicationMailer
       #@greeting = "Hi"
     @user = user
   
-    mail to: "whiteplaast@gmail.com"  do |format|
+    mail to: "your mail"  do |format|
 #  format.html { render users: 'index.html.erb'}
-  format.text {"User requested this domain  '#{@user}' 192.168.1.59:3000/admins/sign_in"}
+  format.text {"User requested this domain  '#{@user}' localhost:3000/admins/sign_in"}
 end
   end
 
